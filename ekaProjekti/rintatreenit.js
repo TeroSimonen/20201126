@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 // Luodaan skeema
 const Schema = mongoose.Schema;
 // Luodaan rintatreenit-skeema
-let jalkatreenit = new Schema ( {
+let rintatreenit = new Schema ( {
 
     liikkeet: [{
         liike: {type: String}
